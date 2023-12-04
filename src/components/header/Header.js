@@ -3,7 +3,17 @@ import React from 'react';
 function Header() {
   return (
     <div>
-      <h1>Hello There</h1>
+        <nav className='logo'>
+            <img src='' />
+        </nav>
+        <nav className='links'>
+            <ul>
+                <a><li>Home</li></a>
+                <a><li>Resume</li></a>
+                <a><li>Projects</li></a>
+                <a><li>Contact</li></a>
+            </ul>
+        </nav>
     </div>
   );
 }
